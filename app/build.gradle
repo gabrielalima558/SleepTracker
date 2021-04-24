@@ -43,6 +43,7 @@ android {
     // Enables data binding.
     buildFeatures {
         dataBinding true
+        viewBinding true
     }
 
 }
@@ -59,6 +60,7 @@ dependencies {
 
     // Room and Lifecycle dependencies
     implementation "androidx.room:room-runtime:$version_room"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.room:room-compiler:$version_room"
     implementation "androidx.lifecycle:lifecycle-extensions:$version_lifecycle_extensions"
 
