@@ -3,7 +3,6 @@ package com.example.android.trackmysleepquality.sleepquality
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.android.trackmysleepquality.database.SleepDatabaseDao
-import com.example.android.trackmysleepquality.sleeptracker.SleepTrackerViewModel
 
 class SleepQualityViewModelFactory(
         private val sleepNightKey: Long,
